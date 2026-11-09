@@ -1,0 +1,17 @@
+{
+  "dataset": "openadmet/cyp-challenge-train-test",
+  "revision": "5ab9dd9daee4dd98840ad585455a2b5aa386f5d0",
+  "license": "apache-2.0",
+  "files": {
+    "cyp-challenge-TRAIN_inhibition.csv": {
+      "url": "https://huggingface.co/datasets/openadmet/cyp-challenge-train-test/resolve/5ab9dd9daee4dd98840ad585455a2b5aa386f5d0/cyp-challenge-TRAIN_inhibition.csv",
+      "sha256": "b8f79addd266fb6f9f4c222c5e4e73d926362328b6a8d2841871a54e46bd2278",
+      "bytes": 653407
+    },
+    "cyp-challenge-TEST-UNBLINDED_inhibition.csv": {
+      "url": "https://huggingface.co/datasets/openadmet/cyp-challenge-train-test/resolve/5ab9dd9daee4dd98840ad585455a2b5aa386f5d0/cyp-challenge-TEST-UNBLINDED_inhibition.csv",
+      "sha256": "6551eba506c90cf51434bc1764424e928cfa19b45854148d692247b8eb49f74c",
+      "bytes": 181624
+    }
+  }
+}

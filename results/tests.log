@@ -1,0 +1,23 @@
+test_batched_graph_independence (test_benchmark.BenchmarkTests) ... ok
+test_equivalent_smiles (test_benchmark.BenchmarkTests) ... ok
+test_graph_permutation (test_benchmark.BenchmarkTests) ... ok
+test_invalid_smiles (test_benchmark.BenchmarkTests) ... [10:47:45] SMILES Parse Error: syntax error while parsing: not-a-molecule
+[10:47:45] SMILES Parse Error: check for mistakes around position 3:
+[10:47:45] not-a-molecule
+[10:47:45] ~~^
+[10:47:45] SMILES Parse Error: Failed parsing SMILES 'not-a-molecule' for input: 'not-a-molecule'
+ok
+test_masked_loss (test_benchmark.BenchmarkTests) ... ok
+test_scaffold_reproducible (test_benchmark.BenchmarkTests) ... ok
+test_soft_error (test_benchmark.BenchmarkTests) ... ok
+test_edge_indices_and_disconnected_graphs (test_review.ReviewTests) ... ok
+test_interval_distance_scalar_reference (test_review.ReviewTests) ... ok
+test_masked_gradients (test_review.ReviewTests) ... ok
+test_missing_labels_excluded_from_score (test_review.ReviewTests) ... ok
+test_reversed_intervals_rejected (test_review.ReviewTests) ... ok
+test_zero_denominator_is_undefined (test_review.ReviewTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.652s
+
+OK

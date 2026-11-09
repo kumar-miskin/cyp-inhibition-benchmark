@@ -1,0 +1,2 @@
+Official tutorial source commit: b3b7361e4cb808cec5021514ce39dbfbf1969ccf
+50 random-array scorer parity checks against official evaluation/custom_scoring_functions.py passed. Validation seed 3, 20 observations per case.

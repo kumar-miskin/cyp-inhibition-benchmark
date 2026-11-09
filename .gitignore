@@ -1,0 +1,9 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/
+*.pt
+*.pth
+*.ckpt
+run.log

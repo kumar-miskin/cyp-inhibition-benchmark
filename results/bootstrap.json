@@ -1,0 +1,57 @@
+{
+  "bootstrap": "1,000 paired compound-row resamples; percentile 95% intervals; seeds fixed; exploratory not rank inference",
+  "models": {
+    "mean": {
+      "macro_ST_RAE_95_percentile_interval": [
+        1.2425345729751256,
+        1.3124331107513378
+      ]
+    },
+    "morgan_rf": {
+      "macro_ST_RAE_95_percentile_interval": [
+        0.8999849711192056,
+        0.9742588077929698
+      ]
+    },
+    "atom_gnn": {
+      "macro_ST_RAE_95_percentile_interval": [
+        0.9116182594371451,
+        0.9871655385795971
+      ]
+    }
+  },
+  "distribution": {
+    "CYP1A2_pIC50_direct_inhibition": {
+      "train_n": 1412,
+      "holdout_n": 748,
+      "train_pIC50_below4_fraction": 0.1643059490084986,
+      "holdout_pIC50_below4_fraction": 0.3689839572192513
+    },
+    "CYP2C9_pIC50_direct_inhibition": {
+      "train_n": 1285,
+      "holdout_n": 750,
+      "train_pIC50_below4_fraction": 0.20155642023346304,
+      "holdout_pIC50_below4_fraction": 0.19333333333333333
+    },
+    "CYP2D6_pIC50_direct_inhibition": {
+      "train_n": 1493,
+      "holdout_n": 748,
+      "train_pIC50_below4_fraction": 0.08640321500334897,
+      "holdout_pIC50_below4_fraction": 0.6470588235294118
+    },
+    "CYP3A4_pIC50_direct_inhibition": {
+      "train_n": 2335,
+      "holdout_n": 748,
+      "train_pIC50_below4_fraction": 0.4042826552462527,
+      "holdout_pIC50_below4_fraction": 0.21657754010695188
+    }
+  },
+  "paired_GNN_minus_RF_ST_RAE": {
+    "mean": 0.0115995763436745,
+    "95_percentile_interval": [
+      -0.01646244466036329,
+      0.04165236672702679
+    ],
+    "interpretation": "Positive favors RF. This interval is conditional on one fitted model per method, not training-seed variation."
+  }
+}

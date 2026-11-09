@@ -1,0 +1,9 @@
+CYP inhibition benchmark
+
+Independent, AI-assisted post-challenge implementation. Not affiliated with or endorsed by OpenADMET. No upstream contribution or competition participation is implied.
+
+Data source: OpenADMET CYP Challenge Train/Test Dataset, declared Apache-2.0 at revision 5ab9dd9daee4dd98840ad585455a2b5aa386f5d0. Downloaded CSVs are excluded from this repository. See dataset_manifest.json for provenance and exact checksums.
+
+The soft-threshold RAE formula and challenge definitions follow OpenADMET/CYP-Challenge-Tutorial (Apache-2.0). The scalar/vector implementation in benchmark.py was independently written for this project and checked against the official function. The rest of this project does not vendor the tutorial source or notebooks. LICENSE carries the Apache-2.0 terms.
+
+RDKit, NumPy, pandas, SciPy, scikit-learn and PyTorch are runtime dependencies, not bundled source. Their respective licenses apply to their distributions.
